@@ -1,0 +1,9 @@
+.gradle/
+.gradle-home/
+build/
+.idea/
+.kotlin/
+out/
+.env
+local.properties
+.DS_Store
