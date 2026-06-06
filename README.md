@@ -10,6 +10,12 @@ The project is intentionally shaped for hiring review:
 - Koog-based workflow orchestration
 - mocked persistence by default, with Mongo-style seams already in place
 
+## The Koog agent workflow
+
+![Koog Agent Workflow](assets/images/koog-agent-flow.png)
+
+The forecast and audit pipelines below are orchestrated through the Koog graph shown above, not bolted on as scattered prompt calls.
+
 ## The business problem
 
 Marketing leaders rarely need another dashboard. They need better prioritization.
@@ -94,10 +100,6 @@ src/main/kotlin/com/bluewater/revenuepredictor/
   mongo/               mocked Mongo-shaped database surface
   repository/          persistence adapters and seeded data
 ```
-
-### Koog workflow diagram
-
-![Koog Agent Workflow](assets/images/koog-agent-flow.png)
 
 ## Technology choices
 
