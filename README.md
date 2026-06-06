@@ -95,6 +95,10 @@ src/main/kotlin/com/bluewater/revenuepredictor/
   repository/          persistence adapters and seeded data
 ```
 
+### Koog workflow diagram
+
+![Koog Agent Workflow](assets/images/koog-agent-flow.png)
+
 ## Technology choices
 
 - `Kotlin` for a concise, strongly typed backend
